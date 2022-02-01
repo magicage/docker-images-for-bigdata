@@ -1,3 +1,3 @@
 # Build command
 
-docker build magicage99/centos:base ./
+docker build -t magicage99/centos:base ./
