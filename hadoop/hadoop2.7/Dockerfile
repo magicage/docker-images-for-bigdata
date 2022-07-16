@@ -16,7 +16,6 @@ RUN wget -O /opt/software/hadoop-${HADOOP_VERSION}.tar.gz \
 
 COPY etc/hadoop/* /opt/module/hadoop-${HADOOP_VERSION}/etc/hadoop/
 
-
 USER root
 
 EXPOSE 22-65535

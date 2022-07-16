@@ -1,3 +1,3 @@
 # Build command
 
-docker build -t magicage99/centos-ssh:1.0 ./
+docker build -t magicage99/centos7.5-ssh:1.0 ./

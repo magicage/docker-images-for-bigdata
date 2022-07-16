@@ -17,12 +17,13 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-    <property>
-        <name>dfs.replication</name>
-        <value>1</value>
-    </property>
-    <property>
-        <name>dfs.permissions</name>
-        <value>false</value>
-    </property>
+  <property>
+     <name>fs.defaultFS</name>
+     <value>hdfs://hadoop201:9000</value>
+  </property>
+  <property>
+   <name>hadoop.tmp.dir</name>
+   <value>/opt/module/hadoop-3.2.0/data/tmp</value>
+ </property>
+
 </configuration>

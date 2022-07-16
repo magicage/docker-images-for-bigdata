@@ -1,3 +1,3 @@
 Build command
 
-docker build -t magicage99/java-ssh:1.0 ./
+docker build -t magicage99/java8-ssh:1.0 ./

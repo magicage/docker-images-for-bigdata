@@ -1,4 +1,4 @@
-FROM magicage99/centos-ssh:1.0
+FROM magicage99/centos7.5-ssh:1.0
 
 MAINTAINER magicage99 magicage99@gmail.com
 

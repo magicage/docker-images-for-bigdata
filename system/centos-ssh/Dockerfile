@@ -1,6 +1,6 @@
 # Centos ssh image
 
-FROM magicage99/centos:base
+FROM magicage99/centos7.5:base
 
 MAINTAINER magicage99 magicage99@gmail.com
 
